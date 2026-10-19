@@ -120,8 +120,8 @@
       "description": "Tilpass opplevelsen din.",
       "deviceKind": {
         "help": "Slik lagres preferanser",
-        "phone": "«{language}», «{afterPlanning}» og «{measurements}» gjelder per konto. Resten per enhetstype.",
-        "desktop": "«{language}», «{afterPlanning}» og «{measurements}» gjelder per konto. Resten per enhetstype."
+        "phone": "«{language}», «{autoEnrich}», «{afterPlanning}» og «{measurements}» gjelder per konto. Resten per enhetstype.",
+        "desktop": "«{language}», «{autoEnrich}», «{afterPlanning}» og «{measurements}» gjelder per konto. Resten per enhetstype."
       },
       "language": {
         "title": "Språk",
@@ -180,6 +180,10 @@
           "metricWithAI": "Metrisk med AI",
           "usWithAI": "Amerikansk med AI"
         }
+      },
+      "autoEnrich": {
+        "title": "Kjør AI på nye oppskrifter",
+        "description": "Kjør det automatiske AI-arbeidet når du legger til en oppskrift. Du kan slå det av for én oppskrift."
       }
     },
     "shareLinks": {

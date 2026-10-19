@@ -297,5 +297,9 @@
     "title": "Klucz AI przestał działać",
     "description": "Dostawca odrzuca klucz API dla {blocks} od {since}. Zapisz nowy klucz, aby te funkcje AI znów działały.",
     "openSettings": "Otwórz ustawienia"
+  },
+  "autoEnrich": {
+    "title": "Uruchom AI dla tego przepisu",
+    "description": "Tagi, wartości odżywcze i zdjęcie są dodawane automatycznie po zapisaniu."
   }
 }

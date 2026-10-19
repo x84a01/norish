@@ -120,8 +120,8 @@
       "description": "Персонализирай изживяването си.",
       "deviceKind": {
         "help": "Как се запазват предпочитанията",
-        "phone": "„{language}“, „{afterPlanning}“ и „{measurements}“ важат за профила. Останалото зависи от вида устройство.",
-        "desktop": "„{language}“, „{afterPlanning}“ и „{measurements}“ важат за профила. Останалото зависи от вида устройство."
+        "phone": "„{language}“, „{autoEnrich}“, „{afterPlanning}“ и „{measurements}“ важат за профила. Останалото зависи от вида устройство.",
+        "desktop": "„{language}“, „{autoEnrich}“, „{afterPlanning}“ и „{measurements}“ важат за профила. Останалото зависи от вида устройство."
       },
       "language": {
         "title": "Език",
@@ -180,6 +180,10 @@
           "metricWithAI": "Метрична с AI",
           "usWithAI": "Американска с AI"
         }
+      },
+      "autoEnrich": {
+        "title": "Стартирай AI за нови рецепти",
+        "description": "Стартирайте автоматичната AI работа, когато добавяте рецепта. Можете да я изключите за една рецепта."
       }
     },
     "shareLinks": {

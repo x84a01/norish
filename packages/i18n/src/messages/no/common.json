@@ -297,5 +297,9 @@
     "title": "En AI-nøkkel har sluttet å virke",
     "description": "Leverandøren har avvist API-nøkkelen for {blocks} siden {since}. Lagre en ny nøkkel for å få disse AI-funksjonene til å virke igjen.",
     "openSettings": "Åpne innstillinger"
+  },
+  "autoEnrich": {
+    "title": "Kjør AI på denne oppskriften",
+    "description": "Tagger, næring og et bilde legges til automatisk etter at den er lagret."
   }
 }

@@ -297,5 +297,9 @@
     "title": "Une clé d'IA ne fonctionne plus",
     "description": "Le fournisseur refuse la clé API pour {blocks} depuis le {since}. Enregistrez une nouvelle clé pour que ces fonctions d'IA marchent à nouveau.",
     "openSettings": "Ouvrir les paramètres"
+  },
+  "autoEnrich": {
+    "title": "Lancer l’IA sur cette recette",
+    "description": "Les tags, les informations nutritionnelles et une image sont ajoutés automatiquement après l’enregistrement."
   }
 }

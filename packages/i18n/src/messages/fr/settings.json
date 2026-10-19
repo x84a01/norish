@@ -120,8 +120,8 @@
       "description": "Personnalisez votre expérience.",
       "deviceKind": {
         "help": "Comment les préférences sont enregistrées",
-        "phone": "« {language} », « {afterPlanning} » et « {measurements} » sont liés au compte. Le reste, au type d'appareil.",
-        "desktop": "« {language} », « {afterPlanning} » et « {measurements} » sont liés au compte. Le reste, au type d'appareil."
+        "phone": "« {language} », « {autoEnrich} », « {afterPlanning} » et « {measurements} » sont liés au compte. Le reste, au type d'appareil.",
+        "desktop": "« {language} », « {autoEnrich} », « {afterPlanning} » et « {measurements} » sont liés au compte. Le reste, au type d'appareil."
       },
       "language": {
         "title": "Langue",
@@ -180,6 +180,10 @@
           "metricWithAI": "Métrique avec l'AI",
           "usWithAI": "US avec l'AI"
         }
+      },
+      "autoEnrich": {
+        "title": "Lancer l’IA sur les nouvelles recettes",
+        "description": "Lancez le travail automatique de l’IA lorsque vous ajoutez une recette. Vous pouvez le désactiver pour une recette."
       }
     },
     "shareLinks": {

@@ -120,8 +120,8 @@
       "description": "사용자 경험을 맞춤 설정하세요.",
       "deviceKind": {
         "help": "환경설정이 저장되는 방식",
-        "phone": "‘{language}’, ‘{afterPlanning}’, ‘{measurements}’ 설정은 계정별로, 나머지는 기기 종류별로 저장됩니다.",
-        "desktop": "‘{language}’, ‘{afterPlanning}’, ‘{measurements}’ 설정은 계정별로, 나머지는 기기 종류별로 저장됩니다."
+        "phone": "‘{language}’, ‘{autoEnrich}’, ‘{afterPlanning}’, ‘{measurements}’ 설정은 계정별로, 나머지는 기기 종류별로 저장됩니다.",
+        "desktop": "‘{language}’, ‘{autoEnrich}’, ‘{afterPlanning}’, ‘{measurements}’ 설정은 계정별로, 나머지는 기기 종류별로 저장됩니다."
       },
       "language": {
         "title": "언어",
@@ -180,6 +180,10 @@
           "metricWithAI": "AI로 미터법",
           "usWithAI": "AI로 미국식"
         }
+      },
+      "autoEnrich": {
+        "title": "새 레시피에 AI 실행",
+        "description": "레시피를 추가할 때 자동 AI 작업을 실행합니다. 레시피별로 끌 수 있습니다."
       }
     },
     "shareLinks": {
