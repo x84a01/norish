@@ -297,5 +297,9 @@
     "title": "Uma chave de IA parou de funcionar",
     "description": "O provedor está recusando a chave de API de {blocks} desde {since}. Salve uma nova chave para que esses recursos de IA voltem a funcionar.",
     "openSettings": "Abrir configurações"
+  },
+  "autoEnrich": {
+    "title": "Executar IA nesta receita",
+    "description": "Tags, nutrição e uma imagem são adicionados automaticamente após salvar."
   }
 }

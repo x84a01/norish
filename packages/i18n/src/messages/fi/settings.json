@@ -120,8 +120,8 @@
       "description": "Mukauta käyttökokemustasi.",
       "deviceKind": {
         "help": "Miten asetukset tallennetaan",
-        "phone": "”{language}”, ”{afterPlanning}” ja ”{measurements}” ovat tilikohtaisia. Muut laitetyyppikohtaisia.",
-        "desktop": "”{language}”, ”{afterPlanning}” ja ”{measurements}” ovat tilikohtaisia. Muut laitetyyppikohtaisia."
+        "phone": "”{language}”, ”{autoEnrich}”, ”{afterPlanning}” ja ”{measurements}” ovat tilikohtaisia. Muut laitetyyppikohtaisia.",
+        "desktop": "”{language}”, ”{autoEnrich}”, ”{afterPlanning}” ja ”{measurements}” ovat tilikohtaisia. Muut laitetyyppikohtaisia."
       },
       "language": {
         "title": "Kieli",
@@ -180,6 +180,10 @@
           "metricWithAI": "Metrinen tekoälyllä",
           "usWithAI": "Amerikkalainen tekoälyllä"
         }
+      },
+      "autoEnrich": {
+        "title": "Aja tekoälyä uusille resepteille",
+        "description": "Aja automaattinen tekoälytyö, kun lisäät reseptin. Voit poistaa sen käytöstä yksittäisen reseptin kohdalla."
       }
     },
     "shareLinks": {

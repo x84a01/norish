@@ -120,8 +120,8 @@
       "description": "Passe deine Erfahrung an.",
       "deviceKind": {
         "help": "Wie Einstellungen gespeichert werden",
-        "phone": "„{language}“, „{afterPlanning}“ und „{measurements}“ gelten pro Konto. Der Rest pro Geräteart.",
-        "desktop": "„{language}“, „{afterPlanning}“ und „{measurements}“ gelten pro Konto. Der Rest pro Geräteart."
+        "phone": "„{language}“, „{autoEnrich}“, „{afterPlanning}“ und „{measurements}“ gelten pro Konto. Der Rest pro Geräteart.",
+        "desktop": "„{language}“, „{autoEnrich}“, „{afterPlanning}“ und „{measurements}“ gelten pro Konto. Der Rest pro Geräteart."
       },
       "language": {
         "title": "Sprache",
@@ -180,6 +180,10 @@
           "metricWithAI": "Metrisch mit KI",
           "usWithAI": "US mit KI"
         }
+      },
+      "autoEnrich": {
+        "title": "KI für neue Rezepte ausführen",
+        "description": "Führe die automatische KI-Arbeit aus, wenn du ein Rezept hinzufügst. Du kannst sie für ein einzelnes Rezept ausschalten."
       }
     },
     "shareLinks": {

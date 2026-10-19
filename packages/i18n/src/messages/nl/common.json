@@ -297,5 +297,9 @@
     "title": "Een AI-sleutel werkt niet meer",
     "description": "De provider weigert de API-sleutel voor {blocks} sinds {since}. Sla een nieuwe sleutel op om die AI-functies weer te laten werken.",
     "openSettings": "Instellingen openen"
+  },
+  "autoEnrich": {
+    "title": "AI uitvoeren op dit recept",
+    "description": "Tags, voeding en een afbeelding worden na het opslaan automatisch toegevoegd."
   }
 }

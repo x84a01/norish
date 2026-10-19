@@ -297,5 +297,9 @@
     "title": "Tekoälyavain lakkasi toimimasta",
     "description": "Palvelu on hylännyt kohteen {blocks} API-avaimen {since} alkaen. Tallenna uusi avain, jotta nämä tekoälytoiminnot toimivat taas.",
     "openSettings": "Avaa asetukset"
+  },
+  "autoEnrich": {
+    "title": "Aja tekoälyä tälle reseptille",
+    "description": "Tunnisteet, ravintotiedot ja kuva lisätään automaattisesti tallentamisen jälkeen."
   }
 }

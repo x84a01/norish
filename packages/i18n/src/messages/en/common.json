@@ -297,5 +297,9 @@
     "title": "An AI key stopped working",
     "description": "The provider has refused the API key for {blocks} since {since}. Save a new key to get those AI features working again.",
     "openSettings": "Open settings"
+  },
+  "autoEnrich": {
+    "title": "Run AI on this recipe",
+    "description": "Tags, nutrition and a picture are added automatically after it is saved."
   }
 }

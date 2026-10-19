@@ -297,5 +297,9 @@
     "title": "En AI-nøgle virker ikke længere",
     "description": "Udbyderen har afvist API-nøglen til {blocks} siden {since}. Gem en ny nøgle for at få de AI-funktioner til at virke igen.",
     "openSettings": "Åbn indstillinger"
+  },
+  "autoEnrich": {
+    "title": "Kør AI på denne opskrift",
+    "description": "Tags, næring og et billede tilføjes automatisk, når den er gemt."
   }
 }

@@ -120,8 +120,8 @@
       "description": "Настройте свой опыт.",
       "deviceKind": {
         "help": "Как сохраняются настройки",
-        "phone": "«{language}», «{afterPlanning}» и «{measurements}» хранятся в аккаунте. Остальное зависит от типа устройства.",
-        "desktop": "«{language}», «{afterPlanning}» и «{measurements}» хранятся в аккаунте. Остальное зависит от типа устройства."
+        "phone": "«{language}», «{autoEnrich}», «{afterPlanning}» и «{measurements}» хранятся в аккаунте. Остальное зависит от типа устройства.",
+        "desktop": "«{language}», «{autoEnrich}», «{afterPlanning}» и «{measurements}» хранятся в аккаунте. Остальное зависит от типа устройства."
       },
       "language": {
         "title": "Язык",
@@ -180,6 +180,10 @@
           "metricWithAI": "Метрическая с ИИ",
           "usWithAI": "US с ИИ"
         }
+      },
+      "autoEnrich": {
+        "title": "Запускать ИИ для новых рецептов",
+        "description": "Запускать автоматическую работу ИИ при добавлении рецепта. Это можно отключить для отдельного рецепта."
       }
     },
     "shareLinks": {

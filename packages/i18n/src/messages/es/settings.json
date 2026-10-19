@@ -120,8 +120,8 @@
       "description": "Personaliza tu experiencia.",
       "deviceKind": {
         "help": "Cómo se guardan las preferencias",
-        "phone": "«{language}», «{afterPlanning}» y «{measurements}» son por cuenta. El resto, por tipo de dispositivo.",
-        "desktop": "«{language}», «{afterPlanning}» y «{measurements}» son por cuenta. El resto, por tipo de dispositivo."
+        "phone": "«{language}», «{autoEnrich}», «{afterPlanning}» y «{measurements}» son por cuenta. El resto, por tipo de dispositivo.",
+        "desktop": "«{language}», «{autoEnrich}», «{afterPlanning}» y «{measurements}» son por cuenta. El resto, por tipo de dispositivo."
       },
       "language": {
         "title": "Idioma",
@@ -180,6 +180,10 @@
           "metricWithAI": "Métrico con IA",
           "usWithAI": "Imperial con IA"
         }
+      },
+      "autoEnrich": {
+        "title": "Ejecutar IA en recetas nuevas",
+        "description": "Ejecuta el trabajo automático de IA al añadir una receta. Puedes desactivarlo para una receta concreta."
       }
     },
     "shareLinks": {

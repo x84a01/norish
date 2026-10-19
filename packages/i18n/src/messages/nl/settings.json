@@ -120,8 +120,8 @@
       "description": "Pas je ervaring aan.",
       "deviceKind": {
         "help": "Hoe voorkeuren worden bewaard",
-        "phone": "„{language}”, „{afterPlanning}” en „{measurements}” gelden per account. De rest per soort apparaat.",
-        "desktop": "„{language}”, „{afterPlanning}” en „{measurements}” gelden per account. De rest per soort apparaat."
+        "phone": "„{language}”, „{autoEnrich}”, „{afterPlanning}” en „{measurements}” gelden per account. De rest per soort apparaat.",
+        "desktop": "„{language}”, „{autoEnrich}”, „{afterPlanning}” en „{measurements}” gelden per account. De rest per soort apparaat."
       },
       "language": {
         "title": "Taal",
@@ -180,6 +180,10 @@
           "metricWithAI": "Metrisch met AI",
           "usWithAI": "US met AI"
         }
+      },
+      "autoEnrich": {
+        "title": "AI uitvoeren op nieuwe recepten",
+        "description": "Voer het automatische AI-werk uit wanneer je een recept toevoegt. Je kunt het per recept uitschakelen."
       }
     },
     "shareLinks": {

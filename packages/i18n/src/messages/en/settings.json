@@ -120,8 +120,8 @@
       "description": "Customize your experience.",
       "deviceKind": {
         "help": "How preferences are saved",
-        "phone": "“{language}”, “{afterPlanning}” and “{measurements}” are per account. The rest per device-type.",
-        "desktop": "“{language}”, “{afterPlanning}” and “{measurements}” are per account. The rest per device-type."
+        "phone": "“{language}”, “{autoEnrich}”, “{afterPlanning}” and “{measurements}” are per account. The rest per device-type.",
+        "desktop": "“{language}”, “{autoEnrich}”, “{afterPlanning}” and “{measurements}” are per account. The rest per device-type."
       },
       "language": {
         "title": "Language",
@@ -180,6 +180,10 @@
           "metricWithAI": "Metric with AI",
           "usWithAI": "US with AI"
         }
+      },
+      "autoEnrich": {
+        "title": "Run AI on new recipes",
+        "description": "Run the automatic AI work when you add a recipe. You can turn it off for a single recipe."
       }
     },
     "shareLinks": {
