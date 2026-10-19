@@ -10,7 +10,6 @@ import { SERVER_CONFIG } from "@norish/config/env-config-server";
 import {
   dashboardRecipe,
   deleteRecipeById,
-  FullRecipeInsertSchema,
   getRandomRecipeCandidates,
   getRecipeFull,
   listRecipes,
@@ -70,7 +69,12 @@ import {
   RecipeCategory,
   SortOrder,
 } from "@norish/shared/contracts";
-import { FullRecipeSchema, RecipeListResultSchema } from "@norish/shared/contracts/zod";
+import {
+  FullRecipeInsertObjectSchema,
+  FullRecipeSchema,
+  RecipeListResultSchema,
+  refineRecipeGallery,
+} from "@norish/shared/contracts/zod";
 import { isVideoUrl } from "@norish/shared/lib/helpers";
 import { ENRICHMENT_KINDS } from "@norish/shared/lib/recipe-enrichment";
 
@@ -220,14 +224,14 @@ export const createRecipeProcedure = authedProcedure
     },
   })
   .input(
-    FullRecipeInsertSchema.extend({
+    FullRecipeInsertObjectSchema.extend({
       autoEnrich: z
         .boolean()
         .optional()
         .describe(
           "Run automatic AI enrichment for the new recipe. Defaults to the caller's auto-enrich setting."
         ),
-    })
+    }).superRefine((value, ctx) => refineRecipeGallery(value.images, ctx))
   )
   .output(z.uuid())
   .mutation(({ ctx, input }) => {

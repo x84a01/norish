@@ -18,8 +18,8 @@ import {
 import { deleteRecipeImagesDir } from "@norish/shared-server/media/storage";
 import { recipes as recipesRealtime } from "@norish/shared-server/realtime/recipes";
 import {
-  FullRecipeInsertSchema,
-  FullRecipeUpdateSchema,
+  FullRecipeInsertObjectSchema,
+  FullRecipeUpdateObjectSchema,
   RecipeDeleteInputSchema,
   RecipeGetInputSchema,
   RecipeListInputSchema,
@@ -31,7 +31,7 @@ import { conflict } from "../errors";
 import { requireRecipe, runTool } from "./helpers";
 import { runPostWrite } from "./post-write";
 
-const RecipeCreateInputSchema = FullRecipeInsertSchema.omit({
+const RecipeCreateInputSchema = FullRecipeInsertObjectSchema.omit({
   id: true,
   image: true,
   images: true,
@@ -46,7 +46,7 @@ const RecipeCreateInputSchema = FullRecipeInsertSchema.omit({
 const RecipeUpdateInputSchema = z.object({
   id: z.uuid(),
   version: z.number().int().positive(),
-  data: FullRecipeUpdateSchema.omit({
+  data: FullRecipeUpdateObjectSchema.omit({
     id: true,
     userId: true,
     createdAt: true,
